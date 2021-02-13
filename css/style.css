@@ -1,0 +1,12 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+div {
+    font-size: 24px;
+    font-weight: 500;
+    color: green;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+    text-align: justify;
+}
