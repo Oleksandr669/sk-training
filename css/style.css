@@ -10,3 +10,24 @@ div {
     letter-spacing: 0.05em;
     text-align: justify;
 }
+
+a{
+    font-size: 24px;
+    color: grey;
+}
+
+.a1:hover{
+    color: blue;
+}
+
+.a2:hover{
+    color: red;
+}
+
+.a3:hover{
+color:pink;
+}
+
+.a4:hover{
+    color:red;
+}
