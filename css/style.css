@@ -1,0 +1,13 @@
+li{
+    display: inline-block; margin: 0 5px 5px 0;
+    width: 400px;
+     height: 80px; 
+     background-color:gainsboro;
+     text-align: center;
+     font-size: 24px;
+     
+    }
+    li:nth-child(3), li:nth-child(7){
+        background-color: green;
+    }
+
