@@ -1,25 +1,36 @@
+body{
+    width: 1000px;
+}
 .h{
-   stroke-width: 0px;
-   height: 100px;
-   background-color: grey;
+   height: 50px;
+   background-color: rgba(116, 223, 15, 0.363);
 }
 
 nav{
-    stroke-width: 0px;
-    height: 80px;
-    background-color: rgb(14, 131, 40);
+    height:40px;
+    background-color: rgba(14, 196, 54, 0.788);
 }
 
 #sidebar{
-    width: 200px;
-    height: 300px;
-    background-color: rgb(34, 9, 128);
-    
+    float: left;
+    width: 25%;
+    height: 400px;
+    background-color: rgba(35, 9, 128, 0.719);
 }
-
 #content{
-    width: 200px;
-    height: 300px;
-    background-color: rgb(34, 9, 128);
-    position: relative; top: 20px; left: 20px;
+    float: left;
+    width: 50%;
+    height: 400px;
+    background-color: rgba(88, 48, 163, 0.39);
+}
+aside{
+    float: right;
+    width: 25%;
+    height: 400px;
+    background-color: rgba(35, 9, 128, 0.719);
+}
+footer{
+    clear: both;
+    height: 50px;
+    background-color: rgba(189, 180, 180, 0.747);
 }
