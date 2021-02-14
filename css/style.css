@@ -15,5 +15,7 @@ div{
     border-radius: 8px;
 }
 p, h1{
+
     background-color: white;
+    text-decoration-line: underline;
 }
