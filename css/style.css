@@ -1,0 +1,14 @@
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+p::before, p::after{
+    content: " '' ";
+    font-size: 30px;
+    color: green;
+    font-family: 'Lato', sans-serif;
+
+
+}
