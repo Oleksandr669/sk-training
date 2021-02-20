@@ -1,0 +1,32 @@
+*{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+div{
+    background-image: radial-gradient(circle at 29.28% 43%, #737a7d, transparent 62%),radial-gradient(circle at 70.86% 42.5%, #979ca1, transparent 47%),radial-gradient(circle at 50% 50%, #000000, #000000 100%);
+    width: 80%;
+    height: 400px;
+    position: relative;
+    left: 10%;
+    
+}
+
+.left{
+ color: gray;
+ font-size: 100px;
+ text-align: center; 
+ position: absolute;
+ left: 10%;
+ margin-top: 70px;  
+ text-shadow: 5px 5px 5px black ;
+ 
+}
+
+.right{
+    color: gray;
+    font-size: 100px;
+    text-align: center;  
+    position: absolute;
+    right: 10%; 
+    margin-top: 70px;
+    text-shadow: 6px 6px 6px black ;
+   }
