@@ -1,9 +1,9 @@
-*{
+body {
     padding: 0px;
     background-color: grey;
-    
 }
-div{
+
+.main-container {
 
     border: 5px solid red;
     background-color: white;
@@ -15,8 +15,25 @@ div{
     margin-top: 15%;
     border-radius: 8px;
 }
-p, h1{
+
+.text {
+    background-color: white;
+}
+
+.header {
 
     background-color: white;
-    text-decoration-line: underline;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h1:after {
+    content: '';
+    position: absolute;
+    width: 200px;
+    bottom: 135px;
+    height: 1px;
+    left: 34%;
+    background-color: rgb(10, 1, 1);
+
 }
